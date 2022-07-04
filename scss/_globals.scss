@@ -1,0 +1,19 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: #fafafa;
+    font-size: 1.4rem;
+}
