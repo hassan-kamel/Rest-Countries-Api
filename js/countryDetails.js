@@ -23,7 +23,7 @@ RC.getCountry(countryName).then((res) => {
                     <img src="${country.flags[0]}" alt="flag">
                 </div>
                 <div class="details">
-                    <h2>country.name</h2>
+                    <h2>${country.name}</h2>
                     <div class="all">
                         <div class="detail">
                             <span>Native Name : </span>
@@ -102,7 +102,7 @@ RC.getCountry(countryName).then((res) => {
 const backEl = document.querySelector('.back');
 
 backEl.addEventListener('click', () => {
-    window.location.href = '/';
+    window.location.href = '/Rest-Countries-Api';
 });
 
 
